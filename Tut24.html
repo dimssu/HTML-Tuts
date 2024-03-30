@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>CSS Display property</title>
+    <style>
+        header{
+            margin: auto;
+            border: 2px solid red;
+            width: 1200px;
+        }
+        img{
+            width: 37px;
+            margin: auto;
+            display: block;
+        }
+        h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0px;
+            text-align: center;
+        }
+        .box{
+            border: 3px solid black;
+            background-color: beige;
+            margin: 4px 0px;
+            padding: 23px;
+            display: inline-block;
+            width: 33%;
+            /* By using box-sizing: border-box the width is set with padding and margin included and the width stays fixed otherwise the margin and padding changes the width */
+            box-sizing: border-box;
+        }
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://us.123rf.com/450wm/inkdrop/inkdrop1910/inkdrop191006642/132480573-letter-d-distorted-neon-glitch-effect-text-font-3d-render.jpg?ver=6" alt="">
+        <h3>Welcome to my blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi numquam ut illum vel autem soluta. Quasi facilis corporis, impedit corrupti molestiae est rerum dolore porro saepe dolor magnam, cumque quo voluptatibus ipsa nemo sed ipsam, aperiam adipisci culpa delectus. Tempore error optio dolore modi temporibus sint adipisci, cum nemo deleniti fugit voluptatem libero cumque.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi numquam ut illum vel autem soluta. Quasi facilis corporis, impedit corrupti molestiae est rerum dolore porro saepe dolor magnam, cumque quo voluptatibus ipsa nemo sed ipsam, aperiam adipisci culpa delectus. Tempore error optio dolore modi temporibus sint adipisci, cum nemo deleniti fugit voluptatem libero cumque.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi numquam ut illum vel autem soluta. Quasi facilis corporis, impedit corrupti molestiae est rerum dolore porro saepe dolor magnam, cumque quo voluptatibus ipsa nemo sed ipsam, aperiam adipisci culpa delectus. Tempore error optio dolore modi temporibus sint adipisci, cum nemo deleniti fugit voluptatem libero cumque.</p>
+        </div>
+    </div>
+</body>
+</html>
