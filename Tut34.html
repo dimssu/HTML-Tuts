@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: blanchedalmond;
+            
+            /* box shadow offset-x offset-y color */
+            /* box-shadow: 10px 13px yellow; */
+            /* box-shadow: -10px -13px; */
+            
+            /* box shadow offset-x offset-y blur radius color */
+            /* box-shadow: 10px 13px 10px;  */
+            /* box-shadow: -10px -13px 10px;  */
+            
+            /* box-shadow: -10px -13px 10px 5px;  */
+            
+            box-shadow: inset 10px 13px yellow;
+        }
+        
+        .card h2{
+            text-shadow: 3px 2px 2px aqua;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat neque adipisci perspiciatis corrupti eius quis culpa minima iure tempore! Iste ratione eveniet omnis minima veniam, culpa dolorem vitae aspernatur asperiores corporis, quia sed.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>Card 2</h2> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat neque adipisci perspiciatis corrupti eius quis culpa minima iure tempore! Iste ratione eveniet omnis minima veniam, culpa dolorem vitae aspernatur asperiores corporis, quia sed.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat neque adipisci perspiciatis corrupti eius quis culpa minima iure tempore! Iste ratione eveniet omnis minima veniam, culpa dolorem vitae aspernatur asperiores corporis, quia sed.</p>
+        </div>
+    </div>
+</body>
+
+</html>
